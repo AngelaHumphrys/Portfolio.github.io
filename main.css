@@ -1,0 +1,298 @@
+/* General Styles */
+body.is-preload {
+    font-family: Arial, sans-serif;
+    background-color: #fddbdb;
+    color: #252a6d;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw; /* 80% of the viewport width */
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box; /* Includes padding in the total width */
+}
+.wrapper {
+    background: #e4e2f0; /* light background color */
+    color: #440761;      /* text color */
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(192, 36, 36, 0.1);
+    margin-bottom: 20px; /* Added spacing between sections */
+}
+
+.wrapper h1, 
+.wrapper h2, 
+.wrapper h3 {
+    color: #440761;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Title fonts */
+    text-align: center;
+}
+
+.wrapper h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.wrapper h2 {
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+
+.wrapper h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.wrapper p {
+    font-size: 1.5em;
+    line-height: 1.6;
+    margin-bottom: 1em;
+    color: #1a0505;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 1em;
+}
+
+/* Navigation Styles */
+nav#nav ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: #440761;
+    padding: 15px 0;
+    margin: 20; /* Ensure no default margin */
+}
+
+nav#nav ul li {
+    display: inline;
+}
+
+nav#nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px 15px; /* Added padding for better click area */
+}
+
+nav#nav ul li a:hover {
+    color: #440549;
+}
+
+/* Button Styles */
+.button.large.scrolly {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #440761;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 10px auto;
+}
+
+.button.large.scrolly:hover {
+    background-color: #ff4500;
+
+}
+
+.button-container {
+    text-align: center; /* Center align the button */
+    margin-bottom: 20px; /* Optional: add some space below the button */
+}
+/* Image Resizing */
+.image.fit img {
+    width: 20% !important; /* Set to desired percentage */
+    max-width: 20% !important;
+    height: auto !important;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Additional Spacing for Sections */
+.wrapper + .wrapper {
+    margin-top: 20px;
+}
+
+/* Center text globally */
+body {
+    text-align: center;
+}
+
+/* Ensure all section headers are centered */
+h1, h2 {
+    text-align: center;
+}
+
+/* Style for sections to ensure they have some margin and padding */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px; /* Adjust based on your preference */
+    text-align: center; /* Center text within each section */
+    border: 1px solid #ddd; /* Optional: add a border for separation */
+    border-radius: 8px; /* Optional: rounded corners */
+    background-color: #f9f9f9; /* Optional: background color for sections */
+}
+
+/* Add some space between sections */
+section + section {
+    margin-top: 40px;
+}
+/* Css for the video and experience page */
+.video.fit video {
+    width: 100%; /* Make video responsive */
+    max-width: 100%; /* Ensure it doesn’t exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto;
+}
+
+.button-container {
+    text-align: center; /* Centers the button container */
+    margin-top: 20px;  /* Adds some space above the buttons */
+}
+
+/* Style for each experience section */
+.experience-box {
+    background: #F7F7F7; /* Light grey background for the box */
+    border: 1px solid #CCC; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    margin-bottom: 20px; /* Space between boxes */
+}
+
+.experience-box header {
+    margin-bottom: 10px; /* Space below the header */
+}
+
+.experience-box h2 {
+    margin: 0; /* Remove default margin */
+}
+
+.experience-box p {
+    margin: 0;
+}
+
+/* social media icons */
+/* Add these styles to your main.css file to style the social media icons */
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px; /* Space between icons */
+    justify-content: center;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media img {
+    width: 50px; 
+    height: auto;
+    vertical-align: middle;
+}
+
+/* main.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Contact page specific styles */
+#contact {
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.box {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.social-media li {
+    display: inline;
+}
+
+.social-media img {
+    width: 24px;
+    height: auto;
+    vertical-align: middle;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.social-media a:hover img {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .social-media {
+        flex-direction: column;
+    }
+
+    .social-media li {
+        margin: 10px 0;
+    }
+}
+/* Mobile styles */
+@media (max-width: 600px) {
+    #nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #nav li {
+        margin: 10px 0;
+    }
+
+    /* Hamburger menu styles */
+    .hamburger {
+        display: none;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+    .nav-menu {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+}
